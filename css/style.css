@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.watch img{
+    width: 300px;
+    height: auto;
+    
+}
+
+.first-block{
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title-mor{
+    padding: 0;
+    margin: 0;
+}
+
+.mor705{
+    margin: 0;
+    padding-top: 40px;
+}
+
+.mor705 a{
+    text-decoration:none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #161515;
+}
+
+.text h1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 250px;
+    color: #272727;
+}
+
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 155%;
+    color: #161515;
+}
+
+.texts{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.btn{
+    font-family: 'League Spartan';
+    width:278px;
+    height:82px;
+    font-size: 32px;
+    color: white;
+    background-color: black;
+    border:none;
+    cursor: pointer;
+}
+
+.btn2{
+    font-family: 'League Spartan';
+    width:143px;
+    height:82px;
+    font-size: 32px;
+    color: black;
+    background-color: white;
+    border:none;
+    cursor:pointer;
+}
+
+.title{
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item img{
+    margin: 0 auto;
+    width: 286px;
+    height: 410px;
+    background-color: #f8f8f8;
+}
+
+.item h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.item p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 155%;
+    text-align: center;
+    color: #161515;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item2 img{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    background-color: #f8f8f8;
+}
+
+.item2 h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.item2 p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 155%;
+    text-align: center;
+    color: #161515;
+}
+
+.text3 h4{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 186%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #161515;
+
+}
+
+.text3 hr{
+    width: 100px;
+    align-items: center;
+    border:none;
+    border-top: 1px solid #707070;
+    margin: 0 auto;
+}
+
+.text3 p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: center;
+    color: #161515;
+}
+
+.hypertext{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 170%;
+text-decoration-line: underline;
+color: #BB8B5D;
+}
+
+@media (max-width:912px){
+
+    .watch img{
+        width: 200px;
+        height: auto;
+        
+    }
+
+}
+
+@media (max-width:985px){
+
+    .container{
+        max-width:900px;
+        margin: 0 auto;
+    }
+
+    .first-block{
+        text-align: center;
+    }
+
+    .texts{
+        flex-direction: column-reverse;
+    }
+
+    .text h1{
+        font-size: 150px;
+    }
+
+    .item2 img{
+        width: 350px;
+        height: 410px;
+    }
+}
+
+@media (max-width: 400px){
+
+    .container{
+        max-width: 400px;
+        margin:0 auto;
+    }
+
+    .text h1{
+        font-size: 100px;
+    }
+
+    .item2 img{
+        width: 250px;
+        height: 310px;
+    }
+
+}
